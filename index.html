@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Freelancer Project</title>
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/media.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!--header start-->
+   <header class="header">
+      <div class="container">
+         <div class="header__nav">
+            <a href="#!" class="logo">Kelvin</a>
+            <nav id="nav" class="nav open">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#!" class="nav__link active">Home</a></li>
+                  <li class="nav__item"><a href="#!" class="nav__link">Works</a></li>
+                  <li class="nav__item"><a href="#!" class="nav__link">Services</a></li>
+                  <li class="nav__item"><a href="#!" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#!" class="nav__link">Contact</a></li>
+               </ul>
+               <button id="nav__btn" class="nav__button">
+                  <img id="nav__btn-img" src="./img/svg/NAV.svg" alt="open">
+               </button>
+            </nav>
+         </div>
+         <div class="header__row" data-aos="fade-up">
+            <div class="header__content">
+               <h1 class="header__heading">Kelvin Kramer<br> <span>Designer & Developer</span></h1>
+               <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+            </div>
+            <div class="header__img" data-aos="fade-left">
+               <picture>
+                  <source media="(max-width: 799px)" srcset="./img/hero_small.png">
+                  <img src="./img/hero.png" alt="man">
+               </picture>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!--header end-->
+
+   <!--services start-->
+   <section class="services">
+      <div class="container">
+         <div class="services__row">
+            <div class="service__card" data-aos="fade-down">
+               <img src="./img/svg/graphic.svg" alt="UI/UX Design" class="service__card-img">
+               <h3 class="service__card-title">UI/UX Design</h3>
+               <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+            </div>
+            <div class="service__card" data-aos="fade-down">
+               <img src="./img/svg/startup.svg" alt="Development" class="service__card-img">
+               <h3 class="service__card-title">Development</h3>
+               <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+            </div>
+            <div class="service__card" data-aos="fade-down">
+               <img src="./img/svg/browser.svg" alt="software testing" class="service__card-img">
+               <h3 class="service__card-title">software testing</h3>
+               <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--services end-->
+
+   <!--portfolio start-->
+   <section class="portfolio">
+      <div class="container">
+         <div class="portfolio__title">
+            <h2 class="title-main">Portfolio</h2>
+         </div>
+         <div class="project" data-aos="flip-up">
+            <img src="./img/woman.jpg" alt="Online fashion store" class="project__img">
+            <h3 class="project__title"><a href="#!">Online fashion store - Homepage</a></h3>
+         </div>
+         <div class="project" data-aos="flip-up">
+            <img src="./img/reebok.jpg" alt="Reebok Store" class="project__img">
+            <h3 class="project__title"><a href="#!">Reebok Store - Concept</a></h3>
+         </div>
+         <div class="project" data-aos="flip-up">
+            <img src="./img/braun.jpg" alt="Braun Landing Page" class="project__img">
+            <h3 class="project__title"><a href="#!">Braun Landing Page - Concept</a></h3>
+         </div>
+      </div>
+   </section>
+   <!--portfolio end-->
+
+   <!--contacts start-->
+   <footer class="contacts">
+      <div class="container">
+         <div class="contacts__title">
+            <h2 class="title__main">Contacts</h2>
+         </div>
+         <div class="contacts__content" data-aos="fade-down">
+            <p>Want to know more or just chat?<br> You are welcome!</p>
+         </div>
+         <div class="contacts__button" data-aos="fade-down">
+            <a href="#!" class="btn">Send message</a>
+         </div>
+         <div class="contacts__social" data-aos="zoom-in">
+            <a href="#!"><img src="./img/svg/LinkedIn.svg" alt="LinkedIn"></a>
+            <a href="#!"><img src="./img/svg/Instargam.svg" alt="Instargam"></a>
+            <a href="#!"><img src="./img/svg/Behance.svg" alt="Behance"></a>
+            <a href="#!"><img src="./img/svg/Dribble.svg" alt="Dribble"></a>
+         </div>
+         <div class="contacts__footer" data-aos="fade-up">
+            <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+         </div>
+      </div>
+   </footer>
+   <!--contacts end-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="./js/main.js"></script>
+</body>
+</html>
